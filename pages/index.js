@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from './components/header'
 import Landing from './components/landing'
-
+import Projects from './components/projects'
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
       <main className='snap-y snap-mandatory h-screen overflow-y-scroll' >
         {/* HERE GOES THE IMPORTED VIEWS IN ORDER */}
         <Landing />
+        <Projects />
       </main>
     </>
   )

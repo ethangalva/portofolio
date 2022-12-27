@@ -10,7 +10,8 @@ module.exports = {
         customGreen: '#4C604C',
         customBlack: '#28282B',
         customYellow: '#ffc830',
-        customGreenLight: '#576a57',
+        customOrange: '#be5a38',
+        customYellowLight: '#f0f3bd',
       }
     },
   },
