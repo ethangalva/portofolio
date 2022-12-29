@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import About from './components/about'
 import Header from './components/header'
 import Landing from './components/landing'
 import Projects from './components/projects'
@@ -17,6 +18,7 @@ export default function Home() {
         {/* HERE GOES THE IMPORTED VIEWS IN ORDER */}
         <Landing />
         <Projects />
+        <About />
       </main>
     </>
   )
