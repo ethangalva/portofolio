@@ -11,6 +11,7 @@ body {
   background-color: #28282B;
   color: #FFFDFA;
   overflow: hidden; /* Hide scrollbars */
+  scroll-behavior: smooth;
 }
 
 a {

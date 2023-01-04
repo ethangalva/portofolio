@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import About from './components/about'
-import Header from './components/header'
 import Landing from './components/landing'
 import Projects from './components/projects'
+import About from './components/about'
+import Footer from './components/footer'
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
         <Landing />
         <Projects />
         <About />
+        <Footer />
       </main>
     </>
   )

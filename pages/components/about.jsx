@@ -30,7 +30,6 @@ export default function About() {
                             <div className="hover:font-bold hover:scale-[105%] duration-500 transition ease-in-out hover:cursor-default">MONGO DB</div>
                             <div className="hover:font-bold hover:scale-[105%] duration-500 transition ease-in-out hover:cursor-default">BOOTSTRAP</div>
                             <div className="hover:font-bold hover:scale-[105%] duration-500 transition ease-in-out hover:cursor-default">REST API</div>
-
                         </div>
                     </div>
                 </div>
