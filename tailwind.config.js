@@ -12,6 +12,9 @@ module.exports = {
         customYellow: '#ffc830',
         customOrange: '#be5a38',
         customYellowLight: '#f0f3bd',
+      },
+      fontFamily: {
+        handWritten: ['Just Another Hand', 'cursive']
       }
     },
   },
