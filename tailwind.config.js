@@ -11,7 +11,9 @@ module.exports = {
         customBlack: '#28282B',
         customYellow: '#ffc830',
         customOrange: '#be5a38',
-        customYellowLight: '#f0f3bd',
+        customPastelYellow: '#FFE15D',
+        customPastelGreen: '#557153',
+        customPastelOrange: '#FF884B',
       },
       fontFamily: {
         handWritten: ['Just Another Hand', 'cursive']
