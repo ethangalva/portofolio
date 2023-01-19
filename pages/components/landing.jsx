@@ -15,7 +15,7 @@ export default function Landing() {
                     
                     {/* SHORT INFORMATION ABOUT ME */}
                     <div className="order-1 h-2/6 w-full md:w-3/5 md:p-1                    transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500 ">
-                        <div className=" h-full flex-col bg-white lg:bg-red-300 xl:bg-blue-400 w-full text-customBlack rounded-xl p-4 text-sm text-center overflow-hidden font-bold flex items-center justify-evenly md:text-2xl">
+                        <div className=" h-full flex-col bg-white md:bg-customPastelYellow lg:bg-customPastelOrange xl:bg-customPastelGreen w-full text-customBlack rounded-xl p-4 text-sm text-center overflow-hidden font-bold flex items-center justify-evenly md:text-xl">
                             I CREATE BEAUTIFUL WEBSITES THAT ARE FAST LOADING FOR THE MOST PLEASANT EXPERIENCE OF THE USER.
                             <div className="hidden md:flex w-full flex-col justify-end items-center ">
                                 <span className="w-full h-[1.5px] bg-customBlack" /> 
@@ -44,7 +44,7 @@ export default function Landing() {
                                     <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
                                 </svg>
                                 {/* <div className="h-4 w-4 rounded-full bg-customBlack" /> */}
-                                <div className="font-bold text-customBlack md:text-xl lg:text-2xl">REAL ESTATE WEBSITE</div>
+                                <div className="font-bold text-customBlack md:text-lg lg:text-2xl">REAL ESTATE WEBSITE</div>
                             </a>
                         </div>
 
@@ -52,7 +52,7 @@ export default function Landing() {
                         <div className="order-4 md:order-4 w-full h-1/2 md:w-full md:p-0                  transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                             <a href="#projects" className="h-full bg-customGreen rounded-xl flex items-center flex-row justify-center gap-4 px-2 py-2">
                                 {/* dot on the left side */}
-                                <div className="font-bold md:text-xl lg:text-2xl">SEE MORE PROJECTS</div>
+                                <div className="font-bold md:text-lg lg:text-2xl">SEE MORE PROJECTS</div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" className="bi bi-arrow-down-square-fill md:w-[30px] md:h-[30px]" viewBox="0 0 16 16">
                                     <path d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
                                 </svg>
