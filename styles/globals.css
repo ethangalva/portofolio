@@ -22,3 +22,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.project {
+    flex: 1 1 0%;
+    min-height: 0;
+    -webkit-transition: flex-basis 0.3s ease-out !important;
+    transition: flex-basis 0.3s ease-out !important;
+}
+
+.active {
+   cursor: pointer !important;
+   flex-basis: 100% !important;
+   -webkit-transition: flex-basis 0.3s ease-out !important;
+   transition: flex-basis 0.3s ease-out !important;
+}
+
