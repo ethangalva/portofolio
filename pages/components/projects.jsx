@@ -37,8 +37,8 @@ export default function Projects() {
                             { isProjectOpen1 ?
                             <div className="wrapper">
                                 <div className="marquee">
-                                    <div className="bg-customGreen px-1 text-white font-bold text-center">REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL -</div>
-                                    <div className="bg-customGreen px-1 text-white font-bold text-center">REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL -</div>
+                                    <div className="bg-customGreen px-1 text-white font-bold text-center">REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL - REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL - REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL - REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL -</div>
+                                    <div className="bg-customGreen px-1 text-white font-bold text-center">REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL - REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL - REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL - REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL -</div>
                                 </div>
                             </div>
                             :
