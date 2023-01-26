@@ -1,10 +1,10 @@
 import Image from "next/image"
 import React, { useState } from "react";
 
-export default function Projects() {
+export default function Projects2() {
 
-    const [isProjectOpen1, setProjectOpen1] = useState(false)
-    const [isProjectOpen2, setProjectOpen2] = useState(false)
+    const [isProjectOpen3, setProjectOpen3] = useState(false)
+    const [isProjectOpen4, setProjectOpen4] = useState(false)
 
     const handleClick = event => {
         event.target.classList.remove('active');
@@ -18,11 +18,11 @@ export default function Projects() {
 
 
                 {/* SECTION FOR PROJECT 1 */} 
-                <div className={ isProjectOpen1 ? "w-full h-1/2 p-1   project active" : "w-full h-1/2 p-1   project"}>
-                    <div className={ isProjectOpen2 ? "hidden" : "md:flex-row md:flex-wrap md:w-full w-full h-full p-2 flex flex-col justify-between rounded-xl text-customBlack bg-customYellow hover:bg-customGray transition ease-in-out duration-500"}>
+                <div className={ isProjectOpen3 ? "w-full h-1/2 p-1   project active" : "w-full h-1/2 p-1   project"}>
+                    <div className={ isProjectOpen4 ? "hidden" : "md:flex-row md:flex-wrap md:w-full w-full h-full p-2 flex flex-col justify-between rounded-xl text-customBlack bg-customRed hover:bg-customGray transition ease-in-out duration-500"}>
 
                         {/* TITLE AND SHORT DESCRIPTION OF PROJECT */}
-                        <div className={ isProjectOpen1 ? "w-full md:w-full gap-2 flex flex-col h-full justify-between items-center" : "w-full md:w-full flex flex-col h-full justify-between"}>
+                        <div className={ isProjectOpen3 ? "w-full md:w-full gap-2 flex flex-col h-full justify-between items-center" : "w-full md:w-full flex flex-col h-full justify-between"}>
                             <div className="w-full h-fit">
                                 <h3 className="text-center font-bold text-lg ">PicoWind</h3>
                                 <div className="font-semibold text-center">Single page air turbine brand website built with Next.js</div>
@@ -34,7 +34,7 @@ export default function Projects() {
                                 <Image src="/../public/images/placeholder.png" className="w-full h-auto md:h-[180px] md:w-[180px] lg:h-5/6 lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
                             </div>
 
-                            { isProjectOpen1 ?
+                            { isProjectOpen3 ?
                             <div className="wrapper">
                                 <div className="marquee">
                                     <div className="bg-customGreen px-1 text-white font-bold text-center">REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL -</div>
@@ -46,7 +46,7 @@ export default function Projects() {
                             }
 
 
-                            { isProjectOpen1 ?
+                            { isProjectOpen3 ?
                             <div className="flex justify-center text-center font-bold w-11/12">
                                 This was the first project with which I started experimenting with the UI Framework Tailwind, also my first time experimenting with Next JS and deploying an aplication with Vercel
                             </div>
@@ -55,7 +55,7 @@ export default function Projects() {
                             }
 
 
-                            { isProjectOpen1 ?
+                            { isProjectOpen3 ?
                             <div className="flex flex-row justify-center gap-4 w-full font-bold">
                                 <a className="w-fit text-center flex flex-nowrap text-xl items-center gap-1">
                                     github
@@ -72,12 +72,12 @@ export default function Projects() {
 
 
 
-                            { isProjectOpen1 ?
-                            <button onClick={() => setProjectOpen1(false)} className="font-bold relative bottom-0 flex w-full justify-center">
+                            { isProjectOpen3 ?
+                            <button onClick={() => setProjectOpen3(false)} className="font-bold relative bottom-0 flex w-full justify-center">
                                 <p className="text-right hover:underline">CLICK TO SEE LESS</p>
                             </button>
                             :
-                            <button onClick={() => setProjectOpen1(true)} className="font-bold flex w-full justify-center">
+                            <button onClick={() => setProjectOpen3(true)} className="font-bold flex w-full justify-center">
                                 <p className="text-right hover:underline">CLICK TO SEE MORE</p>
                             </button>
                             }
@@ -89,10 +89,10 @@ export default function Projects() {
                 </div>
 
                 {/* SECTION FOR PROJECT 2 */}
-                <div className={isProjectOpen2 ? "w-full h-1/2 p-1   project active" : "w-full h-1/2 p-1   project"}>
-                    <div className={isProjectOpen1 ? "hidden" : "md:flex-row md:flex-wrap md:w-full w-full h-full p-2 flex flex-col justify-between rounded-xl text-customBlack bg-customOrange hover:bg-customGray transition ease-in-out duration-500"}>
+                <div className={isProjectOpen4 ? "w-full h-1/2 p-1   project active" : "w-full h-1/2 p-1   project"}>
+                    <div className={isProjectOpen3 ? "hidden" : "md:flex-row md:flex-wrap md:w-full w-full h-full p-2 flex flex-col justify-between rounded-xl text-customBlack bg-customGreen hover:bg-customGray transition ease-in-out duration-500"}>
                         {/* TITLE AND SHORT DESCRIPTION OF PROJECT */}
-                        <div className={ isProjectOpen2 ? "w-full md:w-full gap-2 flex flex-col h-full justify-between items-center" : "w-full md:w-full flex flex-col h-full justify-between"}>
+                        <div className={ isProjectOpen4 ? "w-full md:w-full gap-2 flex flex-col h-full justify-between items-center" : "w-full md:w-full flex flex-col h-full justify-between"}>
                             <div className="w-full h-fit">
                                 <h3 className="text-center font-bold text-lg ">PicoWind</h3>
                                 <div className="font-semibold text-center">Single page air turbine brand website built with Next.js</div>
@@ -104,7 +104,7 @@ export default function Projects() {
                                 <Image src="/../public/images/placeholder.png" className="w-full h-auto md:h-[180px] md:w-[180px] lg:h-5/6 lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
                             </div>
 
-                            { isProjectOpen2 ?
+                            { isProjectOpen4 ?
                             <div className="wrapper">
                                 <div className="marquee">
                                     <div className="bg-customGreen px-1 text-white font-bold text-center">REACT - NODE.JS - NEXT.JS - TAILWIND - VERCEL -</div>
@@ -116,7 +116,7 @@ export default function Projects() {
                             }
 
 
-                            { isProjectOpen2 ?
+                            { isProjectOpen4 ?
                             <div className="flex justify-center text-center font-bold w-11/12">
                                 This was the first project with which I started experimenting with the UI Framework Tailwind, also my first time experimenting with Next JS and deploying an aplication with Vercel
                             </div>
@@ -125,7 +125,7 @@ export default function Projects() {
                             }
 
 
-                            { isProjectOpen2 ?
+                            { isProjectOpen4 ?
                             <div className="flex flex-row justify-center gap-4 w-full font-bold">
                                 <a className="w-fit text-center flex flex-nowrap text-xl items-center gap-1">
                                     github
@@ -142,12 +142,12 @@ export default function Projects() {
 
 
 
-                            { isProjectOpen2 ?
-                            <button onClick={() => setProjectOpen2(false)} className="font-bold relative bottom-0 flex w-full justify-center">
+                            { isProjectOpen4 ?
+                            <button onClick={() => setProjectOpen4(false)} className="font-bold relative bottom-0 flex w-full justify-center">
                                 <p className="text-right hover:underline">CLICK TO SEE LESS</p>
                             </button>
                             :
-                            <button onClick={() => setProjectOpen2(true)} className="font-bold flex w-full justify-center">
+                            <button onClick={() => setProjectOpen4(true)} className="font-bold flex w-full justify-center">
                                 <p className="text-right hover:underline">CLICK TO SEE MORE</p>
                             </button>
                             }

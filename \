@@ -1,0 +1,105 @@
+import Image from "next/image"
+import React, { useState } from "react";
+
+export default function Projects() {
+
+    const [isProjectOpen1, setProjectOpen1] = useState(false)
+    const [isProjectOpen2, setProjectOpen2] = useState(false)
+
+    const handleClick = event => {
+        event.target.classList.remove('active');
+        event.currentTarget.classList.toggle('active');
+    }
+
+    return (
+        <div className="h-screen flex flex-col justify-between px-8 py-4 snap-center" id="projects">
+            <div className="flex flex-col flex-nowrap h-full relative gap-0 overflow-hidden">
+
+
+
+                {/* SECTION FOR PROJECT 1 */} 
+                <div className={isProjectOpen1 ? "w-full h-1/2 p-1   project active" : "w-full h-1/2 p-1   project"}>
+                    <div className={isProjectOpen2 ? "hidden" : "md:flex-row md:flex-wrap md:w-full w-full h-full p-2 flex flex-col justify-between rounded-xl text-customBlack bg-customYellow hover:bg-customPastelYellow transition ease-in-out duration-500"}>
+
+                        {/* TITLE AND SHORT DESCRIPTION OF PROJECT */}
+                        <div className={isProjectOpen1 ? "w-full md:w-full flex flex-col h-full justify-start" : "w-full md:w-full flex flex-col h-full justify-between"}>
+                            <div className="w-full h-fit">
+                                <h3 className="text-center font-bold text-lg ">PicoWind</h3>
+                                <div className="font-semibold text-center">Single page air turbine brand website built with Next.js</div>
+                            </div>
+
+
+                            {/* thumbnail of websites */}
+                            <div className="flex justify-center">
+                                <Image src="/../public/images/placeholder.png" className="w-full h-auto md:h-[180px] md:w-[180px] lg:h-5/6 lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
+                            </div>
+
+                            { isProjectOpen1 ?
+                            <div className="font-bold flex flex-row">
+                                <div className="w-full text-center">
+                                    REACT
+                                </div>
+                            </div>
+                            :
+                            null
+                            }
+
+
+
+                            { isProjectOpen1 ?
+                            <button onClick={() => setProjectOpen1(false)} className="font-bold flex w-full justify-center">
+                                <p className="text-right hover:underline">CLICK TO SEE LESS</p>
+                            </button>
+                            :
+                            <button onClick={() => setProjectOpen1(true)} className="font-bold flex w-full justify-center">
+                                <p className="text-right hover:underline">CLICK TO SEE MORE</p>
+                            </button>
+                            }
+
+
+                            { isProjectOpen1 ?
+                            <div className="w-full font-semibold">
+                                <div>
+                                    react
+                                </div>
+                            </div>
+                            :
+                            null
+                            }
+
+                        </div>
+                    </div>
+                </div>
+
+                {/* SECTION FOR PROJECT 2 */}
+                <div className={isProjectOpen2 ? "w-full h-1/2 p-1   project active" : "w-full h-1/2 p-1   project"}>
+                    <div className={isProjectOpen1 ? "hidden" : "md:flex-row md:flex-wrap md:w-full w-full h-full p-2 flex flex-col justify-between rounded-xl text-customBlack bg-customOrange hover:bg-customPastelOrange transition ease-in-out duration-500"}>
+                        {/* TITLE AND SHORT DESCRIPTION OF PROJECT */}
+                        <div className="w-full md:w-full flex flex-col h-full justify-between">
+                            <div className="w-full h-fit">
+                                <h3 className="text-center font-bold text-lg ">PicoWind</h3>
+                                <div className="font-semibold text-center">Single page air turbine brand website built with Next.js</div>
+                            </div>
+
+
+                            {/* thumbnail of websites */}
+                            <div className="flex justify-center">
+                                <Image src="/../public/images/placeholder.png" className="w-full h-auto md:h-[180px] md:w-[180px] lg:h-5/6 lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
+                            </div>
+
+                            { isProjectOpen2 ? 
+                            <button onClick={() => setProjectOpen2(false)} className="font-bold flex w-full justify-center">
+                                <p className="text-right hover:underline">CLICK TO SEE LESS</p>
+                            </button>
+                            : 
+                            <button onClick={() => setProjectOpen2(true)} className="font-bold flex w-full justify-center">
+                                <p className="text-right hover:underline">CLICK TO SEE MORE</p>
+                            </button>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}

@@ -11,6 +11,8 @@ module.exports = {
             customBlack: '#28282B',
             customYellow: '#ffc830',
             customOrange: '#be5a38',
+            customRed: '#A25B5B',
+            customGray: '#DCD7C9',
             customPastelYellow: '#FFE15D',
             customPastelGreen: '#557153',
             customPastelOrange: '#FF884B',
