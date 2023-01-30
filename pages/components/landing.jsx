@@ -37,7 +37,7 @@ export default function Landing() {
                     <div className="flex flex-col h-2/6 gap-2 order-4 w-full md:order-2 md:w-2/5 md:p-1">
                         {/* REAL ESTATE WEBSITE */}
                         <div className="order-3 md:order-2 w-full h-1/2 md:w-full md:p-0                    transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
-                            <a href="https://realempire.vercel.app/" target="_blank" rel="noreferrer" className="h-full bg-customYellow rounded-xl flex items-center flex-row justify-center gap-4  px-2 py-2">
+                            <a href="https://realempire.vercel.app/" target="_blank" rel="noreferrer" className="h-full bg-customYellow hover:bg-customGray rounded-xl flex items-center flex-row justify-center gap-4  px-2 py-2                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                                 {/* dot on the left side */}
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="customBlack" className="bi bi-box-arrow-up-right md:w-[30px] md:h-[30px]" viewBox="0 0 16 16">
                                     <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
@@ -50,7 +50,7 @@ export default function Landing() {
 
                         {/* CONTACT ME CALL TO ACTION */}
                         <div className="order-4 md:order-4 w-full h-1/2 md:w-full md:p-0                  transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
-                            <a href="#projects" className="h-full bg-customOrange rounded-xl flex items-center flex-row justify-center gap-4 px-2 py-2">
+                            <a href="#projects" className="h-full bg-customOrange hover:bg-customGray rounded-xl flex items-center flex-row justify-center gap-4 px-2 py-2                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                                 {/* dot on the left side */}
                                 <div className="font-bold text-customBlack md:text-lg lg:text-2xl">SEE MORE PROJECTS</div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="customBlack" className="bi bi-arrow-down-square-fill md:w-[30px] md:h-[30px]" viewBox="0 0 16 16">
