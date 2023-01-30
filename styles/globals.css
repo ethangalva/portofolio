@@ -31,7 +31,6 @@ a {
 }
 
 .active {
-   cursor: pointer !important;
    flex-basis: 100% !important;
    -webkit-transition: flex-basis 0.3s ease-out !important;
    transition: flex-basis 0.3s ease-out !important;
@@ -46,7 +45,7 @@ a {
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
-    animation: marquee 10s linear infinite;
+    animation: marquee 15s linear infinite;
 }
 
 .marquee div {
