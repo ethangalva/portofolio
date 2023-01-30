@@ -25,7 +25,7 @@ export default function Projects() {
                         <div className={ isProjectOpen1 ? "w-full md:w-full gap-2 flex flex-col h-full justify-between items-center" : "w-full md:w-full flex flex-col h-full justify-between"}>
                             <div className="w-full h-fit flex flex-col items-center">
                                 <h3 className="text-center font-bold text-lg md:text-xl lg:text-3xl">PicoWind</h3>
-                                <div className="font-semibold text-center md:text-lg md:w-1/2 lg:text-xl pt-2">Single page air turbine brand website built with Next.js</div>
+                                <div className="font-semibold text-center md:text-lg md:w-1/2 lg:text-xl lg:pt-2">Single page air turbine brand website built with Next.js</div>
                             </div>
 
 
@@ -97,7 +97,7 @@ export default function Projects() {
                         <div className={ isProjectOpen2 ? "w-full md:w-full gap-2 flex flex-col h-full justify-between items-center" : "w-full md:w-full flex flex-col h-full justify-between"}>
                             <div className="w-full h-fit flex flex-col items-center">
                                 <h3 className="text-center font-bold text-lg md:text-xl lg:text-3xl">PicoWind</h3>
-                                <div className="font-semibold text-center md:text-lg md:w-1/2 lg:text-xl pt-2">Single page air turbine brand website built with Next.js</div>
+                                <div className="font-semibold text-center md:text-lg md:w-1/2 lg:text-xl lg:pt-2">Single page air turbine brand website built with Next.js</div>
                             </div>
 
 
