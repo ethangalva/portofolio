@@ -8,7 +8,7 @@ export default function About() {
                 {/* ABOUT ME MESSAGE TO THE READER */}
                 <div className="order-1 h-3/6 w-full md:w-4/5 md:p-1                    transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500 ">
                     <div className=" h-full flex-col bg-white md:bg-customPastelYellow lg:bg-customPastelOrange xl:bg-customPastelGreen w-full text-customBlack rounded-xl p-4 text-center overflow-hidden font-bold flex items-center justify-evenly md:text-xl">
-                        <p className="text-center font-semibold">I'm a self thought front-end web developer. I create visually appealing, user-friendly websites using HTML, CSS, JavaScript, and frameworks. My goal is to deliver high-quality responsive websites. Let's work together.</p>
+                        <p className="text-center font-semibold">I&apos;m a self thought front-end web developer. I create visually appealing, user-friendly websites using HTML, CSS, JavaScript, and frameworks. My goal is to deliver high-quality responsive websites. Let&apos;s work together.</p>
                         {/* MAIN SKILLS SECTION */}
                         <div className="wrapper">
                             <div className="marquee">
