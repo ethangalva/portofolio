@@ -22,7 +22,7 @@ export default function Home() {
             {/* HERE GOES THE IMPORTED VIEWS IN ORDER */}
             <Landing />
             <Projects />
-            <Projects2 />
+            {/*<Projects2 />*/}
             <About />
             <Footer />
         </main>

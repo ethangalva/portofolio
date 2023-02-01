@@ -38,19 +38,19 @@ export default function About() {
                     <div className="w-full h-full flex flex-row md:flex-col items-center gap-2">
                         {/* LINKS DOWNLOAD RESUME / LINKED-IN PROFIL */}
                         <div className="order-1 w-1/2 h-full md:p-0 md:h-1/3 md:w-full                 transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
-                            <a href="" className="h-full bg-customYellow hover:bg-customGray rounded-xl flex items-center flex-col text-center justify-center px-2 py-2 hover:underline hover:cursor-pointer                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
+                            <a href="https://github.com/ethangalva" className="h-full bg-customYellow hover:bg-customGray rounded-xl flex items-center flex-col text-center justify-center px-2 py-2 hover:underline hover:cursor-pointer                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                             {/* dot on the left side */}
                                 <div className="font-bold text-customBlack md:text-lg lg:text-2xl ">GITHUB PROFILE</div>
                             </a>
                         </div>
                         <div className="order-2 w-1/2 h-full md:p-0 md:h-1/3 md:w-full                  transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
-                            <a href="" className="h-full bg-customOrange hover:bg-customGray rounded-xl flex items-center flex-col text-center justify-center px-2 py-2 hover:underline hover:cursor-pointer                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
+                            <a href="https://www.linkedin.com/in/ethan-galvan-5774a0232/" className="h-full bg-customOrange hover:bg-customGray rounded-xl flex items-center flex-col text-center justify-center px-2 py-2 hover:underline hover:cursor-pointer                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                             {/* dot on the left side */}
                                 <div className="font-bold text-customBlack md:text-lg lg:text-2xl">LINKED-IN PROFILE</div>
                             </a>
                         </div>
                         <div className="order-3 hidden md:p-0 md:h-1/3 md:flex md:w-full                  transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
-                            <a href="" className="h-full bg-customRed hover:bg-customGray rounded-xl flex items-center flex-col text-center justify-center px-2 py-2 hover:underline hover:cursor-pointer                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
+                            <a href="../../public/Ethan-Galvan.pdf" download className="h-full bg-customRed hover:bg-customGray rounded-xl flex items-center flex-col text-center justify-center px-2 py-2 hover:underline hover:cursor-pointer                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                             {/* dot on the left side */}
                                 <div className="font-bold text-customBlack md:text-lg lg:text-2xl">DOWNLOAD RESUME</div>
                             </a>
@@ -60,7 +60,7 @@ export default function About() {
 
                 {/* DOWNLOAD RESUME IN MD VIEW ONLY */}
                 <div className="order-2  md:hidden w-full h-1/6 md:w-full md:p-0                  transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
-                        <a href="" className="h-full bg-customOrange hover:bg-customGray rounded-xl flex items-center flex-row justify-center gap-4 px-2 py-2                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
+                    <a href="../../public/Ethan-Galvan.pdf" download className="h-full bg-customOrange hover:bg-customGray rounded-xl flex items-center flex-row justify-center gap-4 px-2 py-2                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                         {/* dot on the left side */}
                         <div className="font-bold text-customBlack text-lg lg:text-2xl">DOWNLOAD RESUME</div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="customBlack" className="bi bi-arrow-down-square-fill md:w-[30px] md:h-[30px]" viewBox="0 0 16 16">
