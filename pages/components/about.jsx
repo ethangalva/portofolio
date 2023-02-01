@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 export default function About() {
     return (
         <div className="h-screen flex flex-col justify-between px-8 gap-4 py-4 snap-center" id="projects">
@@ -74,7 +72,7 @@ export default function About() {
                 {/* IMAGE OF ME ONLY IN MD AND OVER */}
                 <div className="order-8 w-3/6 h-3/6 lg:w-2/6 md:p-1 hidden md:flex      hover:scale-[101%] duration-500 transition ease-in-out hover:cursor-default ">
                     <div className="flex items-center justify-center w-full h-full bg-white rounded-xl">
-                        <Image src="/../public/images/CuteAvataravatar.jpg" width="1000" height="1000" alt="github profile qr cod" className="w-5/6 md:w-auto h-5/6" />
+                        <img src="https://i.imgur.com/DqXUHBT.jpg" width="1000" height="1000" alt="github profile qr cod" className="w-5/6 md:w-auto h-5/6" />
                     </div>
                 </div>
             </div>

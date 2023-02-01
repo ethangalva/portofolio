@@ -1,5 +1,4 @@
 import Header from "./header"
-import Image from "next/image"
 
 export default function Landing() {
     return (
@@ -28,7 +27,7 @@ export default function Landing() {
                     {/* QR CODE TO MY GITHUB */}
                     <div className="order-2 h-2/6 w-full md:w-2/6 md:p-1 md:order-3                    transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                         <a href="https://github.com/ethangalva" target="_blank" rel="noreferrer" className="h-full bg-white rounded-xl text-customBlack flex p-4 flex-row items-center md:w-full md:flex-col justify-center">
-                            <Image src="/../public/images/qr-code.png" className="w-[100px] h-[100px] md:h-[180px] md:w-[180px] lg:h-5/6 lg:w-auto" width="200" height="200" alt="github profile qr code" />
+                            <img src="https://i.imgur.com/PkndKH5.png" className="w-[100px] h-[100px] md:h-[180px] md:w-[180px] lg:h-5/6 lg:w-auto" width="200" height="200" alt="github profile qr code" />
                             <h2 className="font-bold text-xl text-center lg:text-2xl hover:underline">GITHUB PROFILE</h2>
                         </a>
                     </div>
@@ -67,7 +66,7 @@ export default function Landing() {
                     {/* PIXEL ART FOREST */}
                     <div className="order-4 hidden md:flex h-2/6 w-4/6 p-1                    transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                         <div className="bg-customOrange h-full w-full rounded-xl flex-row flex overflow-hidden">
-                            <Image src="/../public/images/treesbackground.gif" width="1000" height="1000" classname="w-full h-full" alt="background" />
+                            <img src="https://i.imgur.com/cbN2lY1.gif" width="1000" height="1000" classname="w-full h-full" alt="background" />
                         </div>
                     </div>
 
@@ -88,7 +87,7 @@ export default function Landing() {
                     <div className="order-5 hidden md:flex h-2/6 w-4/6 p-1                    transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                         <div className="h-full w-full rounded-xl p-2 flex bg-white gap-2">
                             {/* IMAGE OF A CHARACTER THAT LOOKS LIKE ME */}
-                            <Image src="/../public/images/CuteAvataravatar.jpg" width="1000" height="1000" alt="github profile qr cod" className="w-1/2 md:w-auto h-full" />
+                            <img src="https://i.imgur.com/DqXUHBT.jpg" width="1000" height="1000" alt="github profile qr cod" className="w-1/2 md:w-auto h-full" />
                             {/* INFORMATION ABOUT ME */}
                             <div className="w-1/2 text-customBlack font-semibold flex flex-col justify-center md:w-2/3">
                                 {/* <h3 className="font-bold">ABOUT ME:</h3> */}

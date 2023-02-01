@@ -1,4 +1,3 @@
-import Image from "next/image"
 import React, { useState } from "react";
 
 export default function Projects() {
@@ -31,9 +30,9 @@ export default function Projects() {
 
                             {/* thumbnail of websites */}
                             <div className="flex justify-center">
-                                <Image src="/../public/images/placeholder.png" className="w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
-                                <Image src="/../public/images/placeholder.png" className="hidden md:flex w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
-                                <Image src="/../public/images/placeholder.png" className="hidden lg:flex w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
+                                <img src="https://i.imgur.com/H4D0zEE.png" className="w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
+                                <img src="https://i.imgur.com/H4D0zEE.png" className="hidden md:flex w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
+                                <img src="https://i.imgur.com/H4D0zEE.png" className="hidden lg:flex w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
                             </div>
 
                             { isProjectOpen1 ?
@@ -103,9 +102,9 @@ export default function Projects() {
 
                             {/* thumbnail of websites */}
                             <div className="flex justify-center">
-                                <Image src="/../public/images/placeholder.png" className="w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
-                                <Image src="/../public/images/placeholder.png" className="hidden md:flex w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
-                                <Image src="/../public/images/placeholder.png" className="hidden lg:flex w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
+                                <img src="https://i.imgur.com/H4D0zEE.png" className="w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
+                                <img src="https://i.imgur.com/H4D0zEE.png" className="hidden md:flex w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
+                                <img src="https://i.imgur.com/H4D0zEE.png" className="hidden lg:flex w-full h-auto md:w-auto md:h-full lg:w-auto max-w-[40vh]" width="1000" height="1000" alt="github profile qr code" />
                             </div>
 
                             { isProjectOpen2 ?
