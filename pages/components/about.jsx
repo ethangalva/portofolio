@@ -50,7 +50,7 @@ export default function About() {
                             </a>
                         </div>
                         <div className="order-3 hidden md:p-0 md:h-1/3 md:flex md:w-full                  transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
-                            <a href="https://my.indeed.com/p/ethang-a2fsdai" className="h-full bg-customRed hover:bg-customGray rounded-xl flex items-center flex-col text-center justify-center px-2 py-2 hover:underline hover:cursor-pointer                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
+                            <a href="https://my.indeed.com/p/ethang-a2fsdai" className="h-full bg-customRed hover:bg-customGray rounded-xl flex items-center flex-col text-center justify-center px-2 py-2 hover:underline hover:cursor-pointer w-full                     transition ease-in-out delay-250 hover:scale-[101%] origin-center duration-500">
                             {/* dot on the left side */}
                                 <div className="font-bold text-customBlack md:text-lg lg:text-2xl">OPEN RESUME</div>
                             </a>
